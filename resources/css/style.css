@@ -1,0 +1,259 @@
+/*=====================
+
+Project name : 
+Designer     :
+email        :
+========================*/
+/* Documentation
+
+>>>Section<<<
+
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+=========================*/
+
+
+
+/* basic setup */
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+section{
+    padding: 3.5rem;
+}
+
+/* Heading and paragraph*/
+h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 5rem;
+    font-weight: 300;
+    margin: 0;
+    line-height:1;
+}
+
+h2{
+    font-size: 2.6rem;
+    font-weight: 500;
+    line-height: 1;
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+h3{
+    font-family: 'Roboto Slab', serif;
+    font-size: 2.4rem;
+    line-height: 1;
+    margin: 0;
+}
+p{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+.btn-shahin{
+    padding: .9rem 3rem;
+    border-radius: 2.5rem;
+    text-transform: uppercase;
+    background: #fff;
+    color: #4e5159;
+    display: inline-block;
+    font-size: 1.4rem;
+   font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: .6s;
+}
+.btn-shahin:hover{
+    color: #fff;
+}
+.btn-shcase{
+    background: #dd4b2b;
+    color: #fff;
+}
+.btn-shcase:hover{
+    color: #fff;
+}
+/* HEADER : 01*/
+
+nav{
+    background-color: #edeff1;
+    padding: 3rem 0!important;
+}
+nav ul li {
+    margin-left: .5rem;
+}
+.active{
+    background: #dd4b2b;
+    color: #fff;
+    padding: .8rem 3rem;
+    display: inline-block;
+    border-radius: 2.5rem;
+    transition: .6s;
+}
+.active:hover{
+    color: #fff;
+}
+nav ul li a{
+    color: #31353e;
+    font-size: 1.8rem;
+    font-family: 'Roboto Slab', serif;
+    transition: .6s;
+    border-radius: 2.5rem;
+    padding: .8rem 2rem!important;
+}
+nav ul li a:hover{
+    color: #dd4b2b;
+}
+nav .fas{
+    font-size: 2.2rem;
+    margin-right: .5rem;
+}
+/* HERO SECTION : 02*/
+.hero-section{
+    background-image: linear-gradient(rgba(17, 17, 17, 0.1),rgba(17, 17, 17, 0.5)),url('../images/hero-img.png');
+    background-position: center top;
+    padding-top: 35rem;
+    color: #fff;
+    padding-bottom: 9rem;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.hero-section  span{
+    display: inline-block;
+    font-size: 2.5rem;
+   font-family: 'Roboto Slab', serif;
+    margin: 1rem 0;
+}
+.hero-content {
+    margin-top: 4rem;
+}
+.hero-content h3{
+    margin: 1rem 0;
+}
+.hero-section  .hero-btn{
+    margin-top: 2.5rem;
+}
+
+/* news section : 03*/
+
+.news-section{
+    background: #edeff1;
+}
+
+.news-section .food-iteam{
+    margin-top: 3rem;
+}
+.news-section .food-iteam h3{
+    font-size: 2.2rem;
+    margin: 1rem 0;
+}
+.news-section .btn-box{
+    margin-top: 1.5rem;
+}
+/* newsletter  : 04*/
+.newsletter {
+    background-image: linear-gradient(rgba(17, 17, 17, 0.1),rgba(17, 17, 17, 0.5)),url('../images/news.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: #fff;
+}
+.newsletter h2{
+    margin-bottom: 1.5rem;
+}
+
+.newsletter p{
+    margin: 0;
+    line-height: 1.5;
+}
+.food-iteam h3{
+    margin: 1rem 0;
+}
+.newsletter .form-box{
+    margin-top: 2rem;
+    position: relative;
+}
+.newsletter .form-box .form-control{
+    width: 30rem;
+    height: 3rem;
+    background: rgba(255, 255, 255, 0.53);
+    border-radius: 2.5rem;
+    padding: 1rem;
+}
+ .newsletter .form-box ::placeholder{
+    color: #fff;
+     letter-spacing: 1px;
+}
+.newsletter .form-box .btn-form{
+    padding: .6rem 2.5rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    font-size: 14px
+}
+/* showcase */
+.showcase h3{
+    margin-bottom: 3rem;
+
+}
+.showcase p{
+    line-height: 25px;
+}
+.showcase .btn-box{
+    margin-top: 3rem;
+}
+.showcase .btn-box .ars{
+    background: #4b4e73;
+}
+/* link section*/
+.link-section{
+    background: #d75d0e;
+    color: #fff;
+    text-align: center;
+}
+.link-section ul li a{
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+footer{
+    padding: 6rem 0;
+    background-image: linear-gradient(rgba(17, 17, 17, 0.8),rgba(17, 17, 17, 0.6)),url('../images/news.png');
+    background-position: center top;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+footer p{
+    display: inline-block;
+    line-height: 2.5rem;
+    margin: 0;
+}
